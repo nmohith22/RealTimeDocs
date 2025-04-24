@@ -9,5 +9,5 @@ export const provider = new WebsocketProvider(
   ydoc
 );
 
-// Create or retrieve an XML text type for collaborative content
+// Create or retrieve an XML Text type for collaborative content
 export const yText = ydoc.get('content', Y.XmlText);
